@@ -78,3 +78,9 @@ body > footer > p {
   text-align: center;
   top: 70%;
 }
+
+/*column*/
+.col2 {
+  -webkit-column-count: 2;
+  column-count: 2;
+}
