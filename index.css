@@ -84,3 +84,16 @@ body > footer > p {
   -webkit-column-count: 2;
   column-count: 2;
 }
+.col3 {
+  -webkit-column-count: 3;
+  column-count: 3;
+}
+.col2 h3, .col3 h3 {
+  -webkit-column-break-after: always;
+  break-after: always;
+}
+
+/*common*/
+.calign {
+  text-align: center;
+}
